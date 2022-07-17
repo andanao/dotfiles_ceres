@@ -43,6 +43,8 @@ setxkbmap -option ctrl:nocaps
 # make short-pressed Ctrl Escape:
 xcape -e 'Control_L=Escape'
 
+# run ~/.fehbg
+~/.fehbg &
 
 # twm &
 # xclock -geometry 50x50-1+1 &
