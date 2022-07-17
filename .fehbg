@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center '/home/adrian/git/secrets/wallpaper/southern_ring_nebula_webb.png' 
