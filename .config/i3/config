@@ -190,3 +190,7 @@ focus_follows_mouse no
 # Set borders
 default_border pixel 0
 default_floating_border pixel 0
+
+# set gaps
+gaps inner 10
+gaps outer 5
