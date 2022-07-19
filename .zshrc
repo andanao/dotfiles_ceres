@@ -16,10 +16,11 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/adrian/.dotfiles/.zshrc'
 
+# Completions
 autoload -Uz compinit
+zstyle ':completion:*' menu select
 compinit
 # End of lines added by compinstall
-#
 
 # Set Prompt
 PROMPT='%n@%m %1~/ %# '
