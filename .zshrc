@@ -25,5 +25,7 @@ compinit
 # Set Prompt
 PROMPT='%n@%m %1~/ %# '
 
+# Use ZSH syntax highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Exec my dotfiles
 . ~/.dotfiles/bash.conf
