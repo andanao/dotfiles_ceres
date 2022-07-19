@@ -12,5 +12,8 @@ compinit
 # End of lines added by compinstall
 #
 
+# Set Prompt
+PROMPT='%n@%m %1~/ %# '
+
 # Exec my dotfiles
 . ~/.dotfiles/bash.conf
