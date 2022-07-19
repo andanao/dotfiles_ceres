@@ -1,8 +1,17 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_hist
-HISTSIZE=1000
-SAVEHIST=10000
 bindkey -v
+HISTSIZE=5000
+SAVEHIST=5000
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/adrian/.dotfiles/.zshrc'
