@@ -27,5 +27,9 @@ PROMPT='%n@%m %1~/ %# '
 
 # Use ZSH syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Exec my dotfiles
 . ~/.dotfiles/bash.conf
