@@ -2,6 +2,9 @@ HISTFILE=~/.zsh_hist
 HISTSIZE=10000
 SAVEHIST=10000
 HISTDUP=erase
+setopt INC_APPEND_HISTORY
+# export HISTTIMEFORMAT="[%F %T] "
+setopt EXTENDED_HISTORY
 setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
