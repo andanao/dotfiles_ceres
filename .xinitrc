@@ -43,6 +43,9 @@ setxkbmap -option ctrl:nocaps
 # make short-pressed Ctrl Escape:
 xcape -e 'Control_L=Escape'
 
+#don't sleep
+xset s off
+
 # run ~/.fehbg
 ~/.fehbg &
 
