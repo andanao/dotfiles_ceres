@@ -1,0 +1,32 @@
+* Reddit
+** Whitelist
+#+begin_example
+emacs
+orgmode
+orgroam
+archlinux
+unixporn
+#+end_example
+** Blacklist
+#+begin_example
+
+#+end_example
+
+* Websites
+#+begin_example
+fivethirtyeight.com
+feedly.com
+zillow.com
+redfin.com
+apartments.com
+linkedin.com
+facebook.com
+
+#+end_example
+** Social
+Don't use social media, but texting can get distracting as well
+#+begin_example
+pulsesms.app
+messenger.com
+web.whatsapp.com
+#+end_example
