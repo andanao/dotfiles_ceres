@@ -48,7 +48,7 @@ xset s off
 
 # run ~/.fehbg
 ~/.fehbg &
-
+exec emacs &
 # twm &
 # xclock -geometry 50x50-1+1 &
 # xterm -geometry 80x50+494+51 &
