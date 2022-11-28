@@ -19,6 +19,9 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/adrian/.dotfiles/.zshrc'
 
+# Ibus
+ibus-daemon -drxR
+
 # Completions
 autoload -Uz compinit
 zstyle ':completion:*' menu select
