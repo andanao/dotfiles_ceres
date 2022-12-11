@@ -1,4 +1,4 @@
-;; example .emacs file from ubuntu with emacs 28
+;; Should probably be in my emacs repo but this makes sense to me here
 (setq ads/user-dir-emacs "~/git/emacs/")
 
 (setq ads/user-dir-org "~/git/Org/")
