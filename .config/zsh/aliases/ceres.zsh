@@ -9,3 +9,4 @@ alias zmk_r="zmk_mount && mv corne_right-nice_nano_v2-zmk.uf2 /run/media/adrian/
 
 # General stuff
 alias mount_sd="udisksctl mount -b /dev/mmcblk0p1"
+alias update_cad="cd git/CAD && git pull"
