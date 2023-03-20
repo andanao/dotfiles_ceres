@@ -14,3 +14,4 @@ alias update_cad="cd git/CAD && git pull"
 
 #Audio Testing
 alias sound_check="pacat < /dev/urandom"
+alias fix_router="python3 ~/git/secrets/router/reset_24.py"
